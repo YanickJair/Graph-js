@@ -1,0 +1,33 @@
+{
+  "name": "graph-js",
+  "version": "1.0.0",
+  "description": "Graph implimentation in Node JS and TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/app.js",
+    "dev": "nodemom src/app.ts",
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YanickJair/Graph-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YanickJair/Graph-js/issues"
+  },
+  "homepage": "https://github.com/YanickJair/Graph-js#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.0",
+    "@types/node": "^12.0.8",
+    "nodemon": "^1.19.1",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
